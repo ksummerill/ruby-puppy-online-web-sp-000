@@ -23,7 +23,7 @@ class Dog
   # all array = +[#<Dog:0x000000000314a160 @name="Pluto">, #<Dog:0x000000000314a0c0 @name="Fido">, #<Dog:0x000000000314a020 @name="Maddy">]
   def self.print_all
     # puts @@all.to_s
-    @@all.@name.each do |name|
+    @@all.each do |name|
       puts name
     end
   end

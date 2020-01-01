@@ -21,7 +21,7 @@ class Dog
   #    +#<Dog:0x0000000001a4ca30>
   #    +#<Dog:0x0000000001a4c990>
   def self.print_all
-    @@all.each do |name|
+    @@all.name.each do |name|
       puts name
     end
   end
